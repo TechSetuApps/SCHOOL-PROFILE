@@ -10,7 +10,7 @@
 
 A single-page school-profile website built as a student academic submission. The page presents verified public information about +2 High School Pindaruch (a heritage rural school in Darbhanga, Bihar, established 1945) in a clean, modern, accessible, fully-responsive layout.
 
-The page is **a single, self-contained static HTML file named `this.html`** — no external image files, no external JavaScript or CSS libraries, no third-party trackers, no backend. All three photographs are embedded directly in the file as base64 data URIs. The only external resource loaded is Google Fonts (OFL-licensed).
+The page is **a single, self-contained static HTML file named `index.html`** — no external image files, no external JavaScript or CSS libraries, no third-party trackers, no backend. All three photographs are embedded directly in the file as base64 data URIs. The only external resource loaded is Google Fonts (OFL-licensed).
 
 | Field | Value |
 |---|---|
@@ -18,7 +18,7 @@ The page is **a single, self-contained static HTML file named `this.html`** — 
 | Built by | Student (school-project author) |
 | Hosting | GitHub Pages (static) |
 | Repo name | `SCHOOL-PROFILE` |
-| Single file | `this.html` (with all images embedded as base64) |
+| Single file | `index.html` (with all images embedded as base64) |
 | License | MIT (source code) — see in-page License section |
 | Last updated | 14 September 2026 |
 
@@ -26,13 +26,9 @@ The page is **a single, self-contained static HTML file named `this.html`** — 
 
 ## Live URL
 
-Once deployed on GitHub Pages from a repo named `SCHOOL-PROFILE` on the `main` branch root, the page will be live at:
-
 ```
-https://<your-github-username>.github.io/SCHOOL-PROFILE/this.html
+https://techsetuapps.github.io/SCHOOL-PROFILE/
 ```
-
-Since the file is named `this.html` (and not the GitHub-Pages default `index.html`), the URL will need to include the filename. If you prefer the cleaner root URL (without `/this.html`), rename the file to `index.html` before pushing.
 
 ---
 
@@ -40,11 +36,11 @@ Since the file is named `this.html` (and not the GitHub-Pages default `index.htm
 
 ```
 SCHOOL-PROFILE/
-├── this.html              # The complete self-contained school profile page
-└── r.md                      # This file (developer documentation)
+├── index.html              # The complete self-contained school profile page
+└── README.md                      # This file (developer documentation)
 ```
 
-That's it — one HTML file (`this.html`) and one README (`r.md`). No `assets/` folder, no `node_modules/`, no build configuration, no `package.json`. All three photographs are embedded inside `this.html` as base64 data URIs.
+That's it — one HTML file (`index.html`) and one README (`README.md`). No `assets/` folder, no `node_modules/`, no build configuration, no `package.json`. All three photographs are embedded inside `index.html` as base64 data URIs.
 
 ---
 
@@ -165,31 +161,16 @@ All school information shown on the page has been compiled from public sources. 
 
 This is a pure static HTML project — no build step required.
 
-1. Clone the repository (it contains two files: `this.html` and `r.md`).
-2. Open `this.html` in any modern browser (Chrome, Firefox, Safari, Edge).
+1. Clone the repository (it contains two files: `index.html` and `README.md`).
+2. Open `index.html` in any modern browser (Chrome, Firefox, Safari, Edge).
 
 That's it. The Google Fonts will load from the internet. If you're offline, the page falls back to system fonts gracefully. The three images are embedded as base64 data URIs, so they will always load — they don't depend on any external file or network request.
 
 ---
 
-## How to deploy on GitHub Pages
-
-1. Create a new GitHub repository named **SCHOOL-PROFILE** (case-sensitive, exactly this name).
-2. Add both `this.html` and `r.md` to the root of the repository on the `main` branch.
-3. In the repository settings, go to **Pages**.
-4. Under **Build and deployment**, set:
-   - Source: Deploy from a branch
-   - Branch: `main` / root
-5. Save. GitHub will publish the page in about a minute.
-6. Your page will be live at `https://<your-github-username>.github.io/SCHOOL-PROFILE/this.html`.
-
-No GitHub Actions workflow, no Jekyll, no build pipeline needed — GitHub Pages will serve the static `this.html` file directly.
-
----
-
 ## In-page features
 
-The `this.html` file contains the following sections in reading order:
+The `index.html` file contains the following sections in reading order:
 
 1. **Sticky header** with brand mark, desktop navigation, "LEGAL INFO" button and "REACH OUT" button, and a hamburger menu for mobile.
 2. **Hero** with background image and school name overlay.
@@ -229,7 +210,7 @@ The `this.html` file contains the following sections in reading order:
 
 ## Important notes on the photographs
 
-The three photographs embedded as base64 data URIs in `this.html` are **stock images sourced from Google search**, used here for representative illustration only. They are **not** actual photographs of the Pindaruch campus. Where faces of people appear, they are intentionally blurred beyond recognition.
+The three photographs embedded as base64 data URIs in `index.html` are **stock images sourced from Google search**, used here for representative illustration only. They are **not** actual photographs of the Pindaruch campus. Where faces of people appear, they are intentionally blurred beyond recognition.
 
 Before publishing this page on a public domain, **I should replace these stock images with my own campus photographs taken with the school's permission.** The stock photographs are not licensed for commercial reuse.
 
