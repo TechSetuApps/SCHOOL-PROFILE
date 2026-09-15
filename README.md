@@ -247,3 +247,4 @@ This is a student-built project, not the official website of +2 High School Pind
 ---
 
 *This README and the project page itself are educational artefacts released under the MIT License. They do not represent any official position of the school, the Bihar Education Department, or the Government of Bihar.*
+
