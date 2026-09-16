@@ -27,7 +27,7 @@ The page is **a single, self-contained static HTML file named `index.html`** —
 ## Live URL
 
 ```
-https://techsetuapps.github.io/SCHOOL-PROFILE/
+https://techsetuapps.github.io/SCHOOL-PROFILE
 ```
 
 ---
